@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <title>Cartoons</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header class="container">
+        <p>Cartoons are an integral part of every childhood.</p>
+        <h1 id="x">Click!</h1>
+    </header>
+    <main>
+        <section id="information">
+            <section id="association235">
+                <section id="part2">
+                    <h3>Menu:</h3>
+                    <ul>
+                        <li>
+                            <button class="btn" onclick="SwapParts()">Swap blocks</button>
+                        </li>
+                        <li>
+                            <div class="change-case-container">
+                                <input type="checkbox" id="change_case" name="change_case">
+                                <label for="change_case">Change checkbox to change the letter case</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="change-case-container">
+                                <input type="radio" id="savechanges" name="savechanges">
+                                <label for="savechanges">Save changes to local Storage</label>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section id="association35">
+                    <section id="part3">
+                        <h2>Are cartoons a good influence on children?</h2>
+                    </section>
+                    <section id="part5">
+                        <label for="first_base">Enter the length of first base </label>
+                        <input type="number" name="first_base" id="first_base" required>
+
+                        <label for="second_base">Enter the length of second base </label>
+                        <input type="number" name="second_base" id="second_base" required>
+
+                        <label for="height">Enter the length of height </label>
+                        <input type="number" name="height" id="height" required>
+
+                        <button class="btn" onclick="CalculateArea()">Calculate area</button>
+                        <p>Area of Trapezium: <span id="trapezium_area"></span></p>
+                        <div id="find_divisors">
+                            <label for="natural">Enter natural number </label>
+                            <input type="number" name="natural" id="natural" required>
+                            <button class="btn" onclick="FindDivisors()">Find divisors</button>
+                        </div>
+                        <div id="add-images">
+                            <h3>Want to add an image?</h3>
+                            <button class="btn" onclick="addImage()">click me!</button>
+                            <button id="save-image-btn" class="btn" onclick="saveImage()">Save images in local storage</button>
+                        </div>
+                    </section> 
+                </section>
+            </section>
+            <section id="part6">
+                <h4>Good cartoons are full of positive life messages. </h4>
+            </section>
+        </section> 
+        <section id="part4">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem ut laborum consequuntur beatae labore repellendus voluptate.</p>
+        </section>     
+    </main>
+    <footer class="container">
+        <p>So look for and watch cartoons that will only benefit your child</p>
+        <h1>So kids should watch cartoons!</h1>
+    </footer>
+</body>
+</html>

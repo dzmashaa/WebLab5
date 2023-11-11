@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color:#3f007a;
+}
+
+header{
+    background-image: linear-gradient(rgba(223, 204, 251, 0.2), rgba(190, 173, 250, 0.896)), url("https://e0.pxfuel.com/wallpapers/588/999/desktop-wallpaper-miyazaki-studio-ghibli-background-anime-scenery-howls-moving-castle-studio-ghibli-landscape.jpg");
+    background-size: cover;
+}
+
+h1{
+    background-color: #FFF3DA;
+    color:#50019a;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+    margin: 2rem 0;
+    word-break: break-word;
+}
+
+h1:hover{
+    cursor: pointer;
+    background-color: #ffedc7;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+h2{
+    padding: 6px;
+}
+h3{
+    margin-left: 25px;
+    text-transform: uppercase;
+}
+
+h4{
+    padding: 6px;
+}
+footer{
+    clear: both;
+    background-image: linear-gradient(rgba(223, 204, 251, 0.2), rgba(190, 173, 250, 0.896)), url("https://e0.pxfuel.com/wallpapers/588/999/desktop-wallpaper-miyazaki-studio-ghibli-background-anime-scenery-howls-moving-castle-studio-ghibli-landscape.jpg");
+    background-size: cover;
+    background-position: 0% 100%;
+}
+footer h1{
+    text-align: end;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    min-height: 210px;   
+}
+
+.container p{
+    margin:  2rem 20px;
+    color: #50019a;
+    text-align: left;
+    width: 25%;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+#information{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+#association235{
+    display: flex;
+    width: 100%;
+    flex: 1;
+}
+
+#association35{
+    display:flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+}
+#part2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #DFCCFB;
+    width: 30%;
+    min-height: 100%;
+}
+
+#part3{
+    background-color: #a790fb;
+    width:100%;
+    align-items: center;
+    flex-grow: 1;
+}
+
+#part4{
+    background-color: #DFCCFB;
+    width: 21%;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#part5{
+    width:100%;
+    background-color: #D0BFFF;
+    flex-grow: 4;
+    text-align: left;
+}
+#part6{
+    background-color: #a790fb;
+    min-height: 40px;
+    width: 100%;
+}
+
+footer h1{
+    text-align: end;
+}
+
+ul{
+    list-style: none;
+    padding:  0.2rem 0.5rem;
+}
+li{
+    margin-bottom: 0.5rem;
+}
+.change-case-container{
+    display: flex;
+    align-items: center; 
+    color: rgb(255, 253, 140);
+    background-color: #9e85f8;
+    font-size: 20px;
+    border-radius: 6px;
+    word-wrap: break-word;
+}
+
+#part4 p{
+    margin: 1rem 1rem;
+}
+
+label, input, #part5 .btn, #part5 p{
+    margin: 0.5rem 1rem;
+    display: block;
+}
+input{
+    background-color: #FFF3DA;
+    color: #50019a;
+    font-size: 1rem;
+    border-color: #DFCCFB;;
+}
+.btn{
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    background-color: #9e85f8;
+    color: rgb(255, 253, 140);
+    border-color: #DFCCFB;
+    border-radius: 5px;
+    padding: 0.5rem 0.3rem;
+}
+.btn:hover{
+    background-color: #9477ff;
+    cursor: pointer;
+}
+
+#add-images{
+    display: none;
+}
+@media (max-width: 700px) {
+    main{
+        flex-direction: column;
+    }
+    #association235{
+        width: 100%;
+        flex-direction: column;
+    }
+    #association35{
+        width: 100%;
+    }
+    #part2{
+        width: 100%;
+    }
+    #part4{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #part4 ul{
+        display: flex;
+    }
+    #part2 li{
+        margin: 0.5rem;
+    }
+}
